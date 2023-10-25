@@ -1,0 +1,86 @@
+body {
+    background: url('https://i.blogs.es/ad8075/champions/1366_2000.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  #multi-player {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  #multi-player h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #multi-player p {
+    font-size: 1.2em;
+  }
+  
+  #get-the-game {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  #get-the-game h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .item-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .left img {
+    max-width: 100%;
+  }
+  
+  .right {
+    margin-left: 30px;
+    text-align: left;
+  }
+  
+  .info-product h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .info-product h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff0044;
+  }
+  
+  .info-product p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .green-button {
+    background-color: #ff0044;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .green-button:hover {
+    background-color: #ff3355;
+  }
+  
+  .material-icons {
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 1.2em;
+  }
+  

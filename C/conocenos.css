@@ -1,0 +1,224 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  header {
+    background: #ed1d24;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 150px auto 50px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #ed1d24;
+    margin: 0;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    color: #ed1d24;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .quote {
+    font-style: italic;
+    color: #ed1d24;
+  }
+  
+  .footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Hover Effects */
+  .section-content p:hover {
+    color: #ed1d24;
+    transition: 0.3s;
+  }
+  
+  /* Animaciones */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .section img {
+    width: 100%;
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Enlace de Cita */
+  .quote a {
+    color: #ed1d24;
+    text-decoration: underline;
+    transition: 0.3s;
+  }
+  
+  .quote a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+.marvel-logo {
+
+    top: 120px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    right: 0; /* Ajusta la distancia desde la derecha según tus necesidades */
+    width: 100%; /* Ajusta el ancho según el tamaño deseado */
+    height: auto; /* La altura se ajustará proporcionalmente al ancho */
+    z-index: 999; /* Asegura que la imagen esté por encima de otros elementos */
+
+}
+
+
+body {
+  background-image: url('https://wallpapercave.com/wp/wp2578898.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la URL de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center center; /* Centra la imagen en el fondo */
+  background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+  /* Otros estilos opcionales */
+  color: white; /* Cambia el color del texto para que se vea bien en la imagen de fondo */
+}
+
+.banner{
+  background-color: #151515;
+  color: white;
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  height: 560px;
+  position: relative;
+}
+.banner-image{
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
+  background-position: center;
+  width: 50%;
+  height: inherit;
+  position:absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Estilo para las imágenes con clase img-thumbnail */
+img.img-thumbnail {
+  width: 80%;
+  height: 80%;
+  border: 4px solid #ed1d24; /* Borde rojo característico de Marvel */
+  border-radius: 10px; /* Esquinas redondeadas */
+  transition: all 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+img.img-thumbnail:hover {
+  transform: scale(1.1); /* Escala ligeramente al pasar el mouse para un efecto de zoom */
+  border-color: #fff; /* Cambia el color del borde a blanco al pasar el mouse */
+  box-shadow: 0px 0px 15px rgba(237, 29, 36, 0.5); /* Sombra al pasar el mouse */
+}
+
+/* Opcional: Si quieres agregar un efecto de sombra a todas las imágenes */
+img {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Sombra suave en todas las imágenes */
+}
+
+.banner-text{
+  width: 50%;
+  height: inherit;
+}
+.banner-relleno{
+  margin-right: auto;
+  width: 100px;
+  height: 100%;
+  background-color: #151515;
+  clip-path: polygon(0 0, 0 0, 100% 100%, 0% 100%);
+}
+
+.info-banner{
+  background-color: #151515;
+  height: 100%;
+  justify-self: left;
+  max-width: 500px;
+  padding-left: 50px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info-banner-description{
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+.info-banner-title{
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+.info-banner-logo{
+  margin-bottom: .5rem;
+}
+.info-banner-button{
+  border: 1px solid white;
+  background-color: #151515;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em;
+  width: 150px;
+}
+.banner-container{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+.grid-container{
+  position: relative;
+  bottom: 50px;
+  margin: auto;
+}
+.grid-margin{
+  position: relative;
+  margin: auto;
+  padding: 25px;
+  margin-left: 25px;
+  background-color: white;
+}
+.digital-comics-custom-img{
+  background-image: url('https://i.pinimg.com/originals/d1/0f/d0/d10fd0bb67350cbb82b1573eb907b1b2.png');
+}
+.marvel-unlimited-custom-img{
+  background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/0420_mu_base_set_dsk.jpg');
+}
+
